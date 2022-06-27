@@ -1,0 +1,40 @@
+.side-menu-btn {
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	background-color: #41946D;
+	padding: 10px 10px;
+	color: #F5F5F5;
+	cursor: pointer;
+}
+
+.side-menu-btn.pressed {
+	background-color: #83C9A8;
+}
+
+.sidenav {
+	height: 700px;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 20px;
+	bottom: 20px;
+	right: 70px;
+	overflow-x: hidden;
+	transition: 0.5s;
+	border: 1px solid black;
+}
+
+.sidenav .selected-employee {
+	padding: 16px 8px 8px 10px;
+}
+
+.sidenav .selected-employee div {
+	padding: 8px 8px 8px 32px;
+	transition: 0.3s;
+	border: 1px solid lightgray;
+	width: 45%;
+}
+
+.sidenav .selected-employee span.empInfo {
+	color: #83A1C9;
+}

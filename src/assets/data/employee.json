@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "position": "Engineer",
+    "birthdate": "1999-05-29",
+    "manager": 3
+  },
+  {
+    "id": 2,
+    "firstName": "Brittany",
+    "lastName": "Allen",
+    "position": "Project Manager",
+    "birthdate": "1975-05-19",
+    "manager": null
+  },
+  {
+    "id": 3,
+    "firstName": "Philip",
+    "lastName": "Holmes",
+    "position": "Manager",
+    "birthdate": "1982-02-24",
+    "manager": 2
+  },
+  {
+    "id": 4,
+    "firstName": "Russell",
+    "lastName": "Baker",
+    "position": "Director",
+    "birthdate": "1970-12-12",
+    "manager": 14
+  },
+  {
+    "id": 5,
+    "firstName": "Amber",
+    "lastName": "Payne",
+    "position": "Lead Developer",
+    "birthdate": "1989-04-01",
+    "manager": 2
+  },
+  {
+    "id": 6,
+    "firstName": "Jordan",
+    "lastName": "Lewis",
+    "position": "Program Manager",
+    "birthdate": "1970-11-25",
+    "manager": 4
+  },
+  {
+    "id": 7,
+    "firstName": "Carl",
+    "lastName": "Jones",
+    "position": "Developer",
+    "birthdate": "1995-04-01",
+    "manager": 6
+  },
+  {
+    "id": 8,
+    "firstName": "Walter",
+    "lastName": "White",
+    "position": "Designer",
+    "birthdate": "1990-10-07",
+    "manager": 6
+  },
+  {
+    "id": 9,
+    "firstName": "Kelly",
+    "lastName": "Green",
+    "position": "Principal Developer",
+    "birthdate": "1989-05-29",
+    "manager": 3
+  },
+  {
+    "id": 10,
+    "firstName": "Christine",
+    "lastName": "Bell",
+    "position": "Programmer",
+    "birthdate": "1997-08-15",
+    "manager": 5
+  },
+  {
+    "id": 11,
+    "firstName": "John",
+    "lastName": "Cole",
+    "position": "CEO",
+    "birthdate": "1966-02-27",
+    "manager": null
+  },
+  {
+    "id": 12,
+    "firstName": "Martha",
+    "lastName": "Edwards",
+    "position": "COO",
+    "birthdate": "1969-09-17",
+    "manager": null
+  },
+  {
+    "id": 13,
+    "firstName": "Alex",
+    "lastName": "Fisher",
+    "position": "CFO",
+    "birthdate": "1970-02-02",
+    "manager": null
+  },
+  {
+    "id": 14,
+    "firstName": "Mark",
+    "lastName": "Quill",
+    "position": "CTO",
+    "birthdate": "1964-12-15",
+    "manager": null
+  },
+  {
+    "id": 15,
+    "firstName": "Nicholas",
+    "lastName": "Marshall",
+    "position": "CIO",
+    "birthdate": "1970-01-01",
+    "manager": null
+  },
+  {
+    "id": 16,
+    "firstName": "Brad",
+    "lastName": "Osborne",
+    "position": "Vice President",
+    "birthdate": "1980-11-13",
+    "manager": 12
+  },
+  {
+    "id": 17,
+    "firstName": "Jessica",
+    "lastName": "Dalton",
+    "position": "Intern",
+    "birthdate": "2000-11-25",
+    "manager": 16
+  },
+  {
+    "id": 18,
+    "firstName": "Joe",
+    "lastName": "Lawrence",
+    "position": "Finance Manager",
+    "birthdate": "1972-05-13",
+    "manager": 13
+  },
+  {
+    "id": 19,
+    "firstName": "Danzo",
+    "lastName": "Watson",
+    "position": "VP Busniess Development",
+    "birthdate": "1975-07-26",
+    "manager": 12
+  },
+  {
+    "id": 20,
+    "firstName": "Ralph",
+    "lastName": "Morris",
+    "position": "Quality Engineer",
+    "birthdate": "1996-06-06",
+    "manager": 6
+  },
+  {
+    "id": 21,
+    "firstName": "Stephanie",
+    "lastName": "Cooper",
+    "position": "Engineer",
+    "birthdate": "1997-10-09",
+    "manager": 3
+  },
+  {
+    "id": 22,
+    "firstName": "Emily",
+    "lastName": "Turner",
+    "position": "Analyst",
+    "birthdate": "1999-01-27",
+    "manager": 3
+  },
+  {
+    "id": 23,
+    "firstName": "John",
+    "lastName": "Stewart",
+    "position": "Technician",
+    "birthdate": "1993-04-30",
+    "manager": 3
+  },
+  {
+    "id": 24,
+    "firstName": "Donald",
+    "lastName": "Smith",
+    "position": "Associate",
+    "birthdate": "1989-06-22",
+    "manager": 3
+  },
+  {
+    "id": 25,
+    "firstName": "Joshua",
+    "lastName": "Gray",
+    "position": "Coodinator",
+    "birthdate": "1996-10-07",
+    "manager": 3
+  },
+  {
+    "id": 26,
+    "firstName": "Donna",
+    "lastName": "White",
+    "position": "Consultant",
+    "birthdate": "1991-06-23",
+    "manager": 3
+  },
+  {
+    "id": 27,
+    "firstName": "Karen",
+    "lastName": "Matthews",
+    "position": "Analyst",
+    "birthdate": "1998-01-29",
+    "manager": 3
+  },
+  {
+    "id": 28,
+    "firstName": "Elizabeth",
+    "lastName": "White",
+    "position": "Developer",
+    "birthdate": "1988-09-16",
+    "manager": 3
+  },
+  {
+    "id": 29,
+    "firstName": "Richard",
+    "lastName": "Holmes",
+    "position": "Engineer",
+    "birthdate": "1992-03-20",
+    "manager": 3
+  },
+  {
+    "id": 30,
+    "firstName": "William",
+    "lastName": "Harris",
+    "position": "Clerk",
+    "birthdate": "1970-12-31",
+    "manager": 3
+  }
+]

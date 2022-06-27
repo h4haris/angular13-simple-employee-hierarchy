@@ -1,0 +1,14 @@
+<div
+  (click)="onEmployeeSelection()"
+  class="emp-details"
+  [ngClass]="['level', getLevelClass]"
+  [ngStyle]="getStyle"
+>
+  <span class="emp-position">{{ employee.position }} </span>
+
+  <span class="emp-name">{{ employee.firstName }}</span>
+</div>
+
+<div *ngFor="let emp of employee.managingEmployees">
+  <employee-card [employee]="emp" [level]="getLevel"></employee-card>
+</div>

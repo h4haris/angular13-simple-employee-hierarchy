@@ -1,0 +1,28 @@
+<div class="sidebar-container">
+  <div class="sidenav" [style.width]="width">
+    <div class="selected-employee">
+      <div>
+        First Name
+        <span class="empInfo">{{ selectedEmployee?.firstName }}</span>
+      </div>
+      <div>
+        Family Name
+        <span class="empInfo">{{ selectedEmployee?.lastName }}</span>
+      </div>
+      <div>
+        Position <span class="empInfo">{{ selectedEmployee?.position }}</span>
+      </div>
+      <div>
+        Age <span class="empInfo">{{ getAgeFromDOB }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div
+    (click)="toggleSidebar()"
+    class="side-menu-btn"
+    [ngClass]="{ pressed: width !== '0' }"
+  >
+    Side Menu
+  </div>
+</div>

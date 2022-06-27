@@ -1,0 +1,14 @@
+.emp-details{
+    background: white;
+    padding: 8px 8px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.emp-position{
+    color: #83A1C9;
+}
+
+.level {
+    position: sticky;
+}

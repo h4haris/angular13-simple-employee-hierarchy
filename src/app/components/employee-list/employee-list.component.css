@@ -1,0 +1,7 @@
+.employee-list-container {
+    height: 700px;
+    max-height: 700px;
+    overflow: auto;
+    direction: rtl;
+    text-align: left;
+}
