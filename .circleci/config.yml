@@ -30,10 +30,10 @@ jobs:
             - ~/.npm
       - run:
           name: Run Tests
-          command: npm ng build --prod
+          command: npm run ng build --prod
       - run:
           name: Run Tests
-          command: npm ng test --single-run
+          command: npm run ng test --single-run
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
