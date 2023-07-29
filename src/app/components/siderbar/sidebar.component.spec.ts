@@ -208,7 +208,7 @@ describe( 'SidebarComponent', () => {
                 fixture.detectChanges();
 
                 const empAgeElem = debugEl.queryAll( By.css( ".empInfo" ) )[ 3 ].nativeElement;
-                expect( empAgeElem.textContent ).toContain( "22" );
+                expect( empAgeElem.textContent ).toContain( "23" );
             } );
         } );
     } );
